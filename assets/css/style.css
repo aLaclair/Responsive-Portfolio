@@ -193,3 +193,50 @@ a:hover {
         color: white;
 }
 
+@media screen and (max-width: 980px) {
+        .content {
+                margin-left: 50px;
+                max-width: 630px;
+        }
+        #logo {
+
+                margin-left: 50px;
+        }
+        .portfolio_links li {
+                width: 50%;
+        }
+        input {
+                width: 615px;
+        }
+        .Message {
+                width: 615px;
+        }
+}
+@media screen and (max-width: 768px) {
+        .container {
+                margin-right: 25px;
+        }
+        .content {
+                margin-left: 25px;
+                max-width: 768px;
+        }
+        
+        #logo {
+                margin-left: 25px;
+        }
+        #info, #rock {
+                margin-left: 20px;
+        }
+        #info p, #rock p {
+                margin-left: 20px;
+        }
+        input {
+                width: 640px;
+        }
+        .Message {
+                width: 640px;
+        }
+}
+
+
+
