@@ -126,8 +126,10 @@ body {
         display: grid;
         grid-template-columns: auto auto;
         list-style-type: none;
+        width: auto;
         max-width: 200px;
         padding-left: 0px;
+        padding-right: 0%;
         grid-column-gap: 30px;
         grid-row-gap: 50px;
         padding-bottom: 75px;
@@ -187,8 +189,8 @@ label {
         font-size: 14px;
 }
 
+
 a:hover {
-        text-decoration: underline;
         background-color: #4aaaa5;
         color: white;
 }
@@ -202,14 +204,11 @@ a:hover {
 
                 margin-left: 50px;
         }
-        .portfolio_links li {
-                width: 50%;
-        }
         input {
-                width: 615px;
+                width: 98%;
         }
         .Message {
-                width: 615px;
+                width: 98%;
         }
 }
 @media screen and (max-width: 768px) {
@@ -218,25 +217,70 @@ a:hover {
         }
         .content {
                 margin-left: 25px;
-                max-width: 768px;
+                max-width: 100%;
+        }
+        #info, #rock {
+                padding-left: 25px;
+        }
+        #info p, #rock p {
+                margin-left: 25px;
         }
         
         #logo {
                 margin-left: 25px;
         }
-        #info, #rock {
-                margin-left: 20px;
-        }
-        #info p, #rock p {
-                margin-left: 20px;
-        }
         input {
-                width: 640px;
+                width: 98%;
         }
         .Message {
-                width: 640px;
+                width: 98%;
         }
 }
+@media screen and (max-width: 640px) {
+        #logo {
+                width: 100%;
+                text-align: center;
+                margin: 0px;
+                padding: 15px 0px;
+        }
+        .navContainer{
+                width: 100%;
+        }
+        .nav {
+                flex-direction: column;
+                width: 100%;
+        }
+        .navbar {
+                margin: 0 auto;
+                padding: 8px;
+        }
+        .container{
+                margin-right: 0px;
+        }
+        .content {
+                margin: 20px 20px;
+        }
+        footer {
+                width: 100vw;
+                text-align: center;
+        }
+        .portfolio_links {
+                display: flex;
+                flex-direction: column;
+                margin-left: 20%;
+        }  
+        #info, #rock {
+                padding-left: 0%;
+        }
+        #info p, #rock p {
+                margin-left: 0%;
+        }
+        #profilepic {
+               width: 100%;
+               height: auto;
+        }
+}
+
 
 
 
